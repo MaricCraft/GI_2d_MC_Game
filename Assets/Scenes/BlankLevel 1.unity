@@ -6198,13 +6198,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1890045256564825761, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
+      propertyPath: m_Size.x
+      value: 42.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1890045256564825761, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
+      propertyPath: m_Size.y
+      value: 43
+      objectReference: {fileID: 0}
     - target: {fileID: 3586068762607227203, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
       propertyPath: m_LocalScale.x
-      value: 42.618275
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3586068762607227203, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
       propertyPath: m_LocalScale.y
-      value: 43.185974
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3586068762607227203, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6246,9 +6254,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3586068762607227203, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4516861261121686798, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
       propertyPath: m_Name
       value: Water (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622982929607624613, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
+      propertyPath: m_Size.x
+      value: 42.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622982929607624613, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
+      propertyPath: m_Size.y
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622982929607624613, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
+      propertyPath: m_DrawMode
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17590,21 +17614,41 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1890045256564825761, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
+      propertyPath: m_Size.x
+      value: 74.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1890045256564825761, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
+      propertyPath: m_Size.y
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1890045256564825761, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1890045256564825761, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 74.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1890045256564825761, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 3586068762607227203, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
       propertyPath: m_LocalScale.x
-      value: 74.72858
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3586068762607227203, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
       propertyPath: m_LocalScale.y
-      value: 16.489395
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3586068762607227203, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 93.432
+      value: 92.21
       objectReference: {fileID: 0}
     - target: {fileID: 3586068762607227203, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 55.0853
+      value: 54.66
       objectReference: {fileID: 0}
     - target: {fileID: 3586068762607227203, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17643,8 +17687,20 @@ PrefabInstance:
       value: Water
       objectReference: {fileID: 0}
     - target: {fileID: 5622982929607624613, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
+      propertyPath: m_Size.x
+      value: 74.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622982929607624613, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
+      propertyPath: m_Size.y
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622982929607624613, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
       propertyPath: m_Color.a
       value: 0.5137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622982929607624613, guid: b46c5aed88bb5466daa1f0776d4fd379, type: 3}
+      propertyPath: m_DrawMode
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
